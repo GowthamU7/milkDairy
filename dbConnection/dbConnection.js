@@ -1,5 +1,5 @@
 var mongoose = require("mongoose")
 
-mongoose.connect("mongodb://sai:saisai99122@@cluster0-shard-00-00.0fn1n.mongodb.net:27017,cluster0-shard-00-01.0fn1n.mongodb.net:27017,cluster0-shard-00-02.0fn1n.mongodb.net:27017/milkDairy?ssl=true&replicaSet=atlas-12uddp-shard-0&authSource=admin&retryWrites=true&w=majority").
+mongoose.connect("mongodb://srikar:srikar7@cluster0-shard-00-00.1zjpo.mongodb.net:27017,cluster0-shard-00-01.1zjpo.mongodb.net:27017,cluster0-shard-00-02.1zjpo.mongodb.net:27017/milkDairy?ssl=true&replicaSet=atlas-109bee-shard-0&authSource=admin&retryWrites=true&w=majority").
 then((vl)=>console.log("Connected to Database")).
 catch((reason)=>{console.log(reason)})

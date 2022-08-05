@@ -98,6 +98,11 @@ app.get("/checkCapacity/:date",async(req,res)=>{
     }catch(e){
     }
 })
+
+app.get("/",(req,res)=>{
+    res.send("<h3>.................Welcome MIlk Dairy API...............</h3>")
+})
+
 app.listen(PORT,()=>{
     console.log(`Listening on port ${PORT}`)
 })
